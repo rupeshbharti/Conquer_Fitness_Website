@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us — CONQUER FITNESS</title>
+  <meta name="description" content="Get in touch with Conquer Fitness. Visit our gym, call us, or send a message. Find our location, hours, and contact details here.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <a href="index.html" class="navbar-logo">CONQUER FITNESS</a>
+      <div class="navbar-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="classes.html">Classes</a>
+        <a href="membership.html">Membership</a>
+        <a href="contact.html" class="active">Contact</a>
+      </div>
+      <a href="contact.html" class="navbar-cta btn btn-primary">Join Now</a>
+      <button class="navbar-hamburger" aria-label="Toggle menu">
+        <span class="material-symbols-outlined" style="font-size:28px;">menu</span>
+      </button>
+    </div>
+  </nav>
+  <div class="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="classes.html">Classes</a>
+    <a href="membership.html">Membership</a>
+    <a href="contact.html" class="active">Contact</a>
+  </div>
+
+  <!-- MAIN CONTENT: SPLIT LAYOUT -->
+  <main style="padding-top:80px; min-height:100vh; display:flex; flex-direction:column;">
+    <div class="split-layout" style="flex:1;">
+
+      <!-- LEFT: CONTACT FORM -->
+      <div class="split-left" style="padding:32px var(--space-margin-mobile); display:flex; align-items:center; justify-content:center;">
+        <div class="diagonal-accent"></div>
+        <div class="glass-panel" style="padding:var(--space-stack-lg); border-radius:var(--radius-xl); width:100%; max-width:480px; position:relative; z-index:2;">
+          <h1 class="text-headline-md" style="color:var(--color-primary); margin-bottom:8px;">INITIALIZE CONTACT</h1>
+          <p class="text-body-md text-on-surface-variant" style="margin-bottom:var(--space-stack-lg);">Transmit your coordinates. Our high-performance team will intercept and respond within 24 hours.</p>
+
+          <form id="contact-form" style="display:flex; flex-direction:column; gap:var(--space-stack-md);">
+            <div>
+              <label class="form-label" for="name">Full Name</label>
+              <input class="neon-input" id="name" name="name" type="text" placeholder="Your name" required>
+            </div>
+            <div>
+              <label class="form-label" for="email">Email Address</label>
+              <input class="neon-input" id="email" name="email" type="email" placeholder="you@email.com" required>
+            </div>
+            <div>
+              <label class="form-label" for="phone">Phone Number</label>
+              <input class="neon-input" id="phone" name="phone" type="tel" placeholder="+91 98765 43210">
+            </div>
+            <div>
+              <label class="form-label" for="subject">Subject</label>
+              <select class="neon-select" id="subject" name="subject">
+                <option value="general">General Inquiry</option>
+                <option value="membership">Membership Info</option>
+                <option value="booking">Class Booking</option>
+                <option value="trial">Free Trial</option>
+                <option value="corporate">Corporate Plans</option>
+                <option value="feedback">Feedback</option>
+              </select>
+            </div>
+            <div>
+              <label class="form-label" for="message">Your Message</label>
+              <textarea class="neon-input" id="message" name="message" rows="4" placeholder="Tell us about your fitness goals..." required style="resize:none;"></textarea>
+            </div>
+            <button type="submit" class="btn btn-secondary w-full" style="margin-top:var(--space-unit); padding:16px; justify-content:center;">
+              <span>Send Message</span>
+              <span class="material-symbols-outlined">send</span>
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- RIGHT: MAP PLACEHOLDER -->
+      <div class="split-right" style="min-height:400px;">
+        <div class="map-placeholder">
+          <!-- Simulated dark map image -->
+          <div class="map-placeholder-bg" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBVuIBKnwkK_VQe14W01QD5IskiHkJKCnBGdvHmCC3LW7r6cRUH0cIvcIE3rnOP4Hq5XZeTGeN9w79riWfKNp9f0IdsgJEW_0GGq9oTVTk2EhAbjUoHks8IYorNZ8RJUOGzL1T9tU4CTkqclRDFrkAEKJI_qRlazfNHr2klmOaHsie8qwIjYYClGeT6zYq9-aRY2bhJjKlp7vIaUoHpyQulXjVMXmyLWdiC-Gk2u4itPb8YorDpnbPZJYYQTPca2oKfmyS6IYxvyLVJ');"></div>
+          <div class="map-grid-overlay"></div>
+
+          <!-- Map Pin -->
+          <div class="map-pin">
+            <div class="map-pin-pulse"></div>
+            <div class="map-pin-icon">
+              <span class="material-symbols-outlined" style="font-variation-settings:'FILL' 1;">location_on</span>
+            </div>
+            <div class="map-pin-label glass-panel" style="padding:8px 16px; border-radius:var(--radius-lg);">
+              <p class="text-label-mono text-primary-fixed">CONQUER HQ</p>
+              <p class="text-body-md text-on-surface-variant" style="font-size:13px; margin-top:4px;">Main Branch, Your City</p>
+            </div>
+          </div>
+
+          <!-- Coordinates -->
+          <div class="map-coordinates">
+            <div>LAT: 19.0760° N</div>
+            <div>LNG: 72.8777° E</div>
+            <div class="active" style="margin-top:8px;">LINK: ACTIVE</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- INFO CARDS -->
+    <section class="container section reveal">
+      <div class="grid grid-3 reveal-stagger">
+        <!-- Address -->
+        <div class="glass-card info-card">
+          <span class="material-symbols-outlined" style="font-variation-settings:'FILL' 1;">location_on</span>
+          <h3>Location & Parking</h3>
+          <p style="margin-bottom:12px;">
+            Conquer Fitness<br>
+            Ground Floor, XYZ Complex<br>
+            Main Road, Your City - 400001
+          </p>
+          <p>
+            <span class="material-symbols-outlined" style="font-size:16px; vertical-align:middle; color:var(--color-primary-fixed);">local_parking</span>
+            <span style="color:var(--color-primary-fixed); font-size:13px;">Huge free parking available</span>
+          </p>
+        </div>
+
+        <!-- Hours -->
+        <div class="glass-card info-card">
+          <span class="material-symbols-outlined" style="font-variation-settings:'FILL' 1;">schedule</span>
+          <h3>Hours of Operation</h3>
+          <table class="hours-table">
+            <tr>
+              <td>Staffed Hours</td>
+              <td>6:00 AM – 10:00 PM</td>
+            </tr>
+            <tr>
+              <td>Member Access</td>
+              <td style="color:var(--color-primary-fixed) !important;">24/7 (Pro & Elite)</td>
+            </tr>
+            <tr>
+              <td>Sunday</td>
+              <td>7:00 AM – 8:00 PM</td>
+            </tr>
+            <tr>
+              <td>Public Holidays</td>
+              <td>8:00 AM – 2:00 PM</td>
+            </tr>
+          </table>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="glass-card info-card">
+          <span class="material-symbols-outlined" style="font-variation-settings:'FILL' 1;">call</span>
+          <h3>Get In Touch</h3>
+          <ul style="display:flex; flex-direction:column; gap:10px;">
+            <li style="display:flex; align-items:center; gap:8px;">
+              <span class="material-symbols-outlined" style="font-size:18px; color:var(--color-primary-fixed);">call</span>
+              +91 98765 43210
+            </li>
+            <li style="display:flex; align-items:center; gap:8px;">
+              <span class="material-symbols-outlined" style="font-size:18px; color:var(--color-primary-fixed);">mail</span>
+              hello@conquerfitness.in
+            </li>
+            <li style="display:flex; align-items:center; gap:8px;">
+              <span class="material-symbols-outlined" style="font-size:18px; color:var(--color-secondary-container);">language</span>
+              www.conquerfitness.in
+            </li>
+          </ul>
+          <div style="display:flex; gap:12px; margin-top:16px;">
+            <a href="#" style="width:36px; height:36px; border-radius:50%; background:var(--color-surface-container-high); border:1px solid rgba(255,255,255,0.1); display:flex; align-items:center; justify-content:center; transition:all 0.3s;" title="Instagram">
+              <span class="text-label-mono" style="font-size:14px; color:var(--color-on-surface-variant);">IG</span>
+            </a>
+            <a href="#" style="width:36px; height:36px; border-radius:50%; background:var(--color-surface-container-high); border:1px solid rgba(255,255,255,0.1); display:flex; align-items:center; justify-content:center; transition:all 0.3s;" title="Facebook">
+              <span class="text-label-mono" style="font-size:14px; color:var(--color-on-surface-variant);">FB</span>
+            </a>
+            <a href="#" style="width:36px; height:36px; border-radius:50%; background:var(--color-surface-container-high); border:1px solid rgba(255,255,255,0.1); display:flex; align-items:center; justify-content:center; transition:all 0.3s;" title="YouTube">
+              <span class="text-label-mono" style="font-size:14px; color:var(--color-on-surface-variant);">YT</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-logo">CONQUER FITNESS</div>
+        <p class="footer-copyright">© 2025 Conquer Fitness. Engineered for performance.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="membership.html">Membership</a>
+        <a href="classes.html">Classes</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

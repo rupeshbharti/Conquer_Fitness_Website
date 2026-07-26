@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CONQUER FITNESS — Biggest & Luxurious Unisex Gym</title>
+  <meta name="description" content="Conquer Fitness — The biggest and most luxurious unisex gym. Free Yoga, Zumba, CrossFit, Steam Bath, BMI Testing, Diet Nutrition, Jerai Equipment, and a massive 6000 sq.ft. AC workout space.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVBAR
+       ============================================================ -->
+  <nav class="navbar" id="navbar">
+    <div class="navbar-inner">
+      <a href="index.html" class="navbar-logo">CONQUER FITNESS</a>
+      <div class="navbar-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="classes.html">Classes</a>
+        <a href="membership.html">Membership</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <a href="contact.html" class="navbar-cta btn btn-primary">Join Now</a>
+      <button class="navbar-hamburger" aria-label="Toggle menu">
+        <span class="material-symbols-outlined" style="font-size:28px;">menu</span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="index.html" class="active">Home</a>
+    <a href="about.html">About</a>
+    <a href="classes.html">Classes</a>
+    <a href="membership.html">Membership</a>
+    <a href="contact.html">Contact</a>
+    <a href="contact.html" class="btn btn-primary" style="margin-top:24px; text-align:center;">Join Now</a>
+  </div>
+
+  <!-- ============================================================
+       HERO SECTION
+       ============================================================ -->
+  <header class="hero hero-full">
+    <div class="hero-bg">
+      <div class="hero-bg-image" style="background-image: url('assets/hero-home.png');"></div>
+      <div class="hero-bg-gradient"></div>
+      <div class="hero-bg-grid"></div>
+    </div>
+    <div class="hero-content">
+      <!-- Tech accent chip -->
+      <div style="display:inline-flex; align-items:center; gap:8px; margin-bottom:24px; border:1px solid rgba(0,162,253,0.5); background:rgba(0,162,253,0.1); padding:6px 16px; border-radius:9999px; backdrop-filter:blur(8px);">
+        <span style="width:8px; height:8px; border-radius:50%; background:#00a2fd; animation: ping 1.5s cubic-bezier(0,0,0.2,1) infinite;"></span>
+        <span class="text-label-mono" style="color:var(--color-secondary-fixed);">Biggest & Luxurious Unisex Gym</span>
+      </div>
+      <h1>CONQUER <br class="hide-desktop"><span class="gradient-text">YOUR LIMITS</span></h1>
+      <p>High-intensity training for the modern athlete. Step into the arena. Upgrade your performance. 6000 sq.ft. AC workout space with world-class Jerai equipment.</p>
+      <div class="hero-actions">
+        <a href="contact.html" class="btn btn-primary btn-lg">
+          <span>Start Free Trial</span>
+          <span class="material-symbols-outlined">arrow_forward</span>
+        </a>
+        <a href="classes.html" class="btn btn-secondary btn-lg">
+          <span class="material-symbols-outlined">play_circle</span>
+          <span>View Programs</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main style="position:relative; z-index:20; padding-bottom:var(--space-stack-lg);">
+
+    <!-- ============================================================
+         LIVE STATS
+         ============================================================ -->
+    <section class="container reveal" style="margin-top:-64px; position:relative; z-index:30; margin-bottom:var(--space-stack-lg);">
+      <div class="grid grid-3">
+        <!-- Stat 1 -->
+        <div class="glass-card stat-card">
+          <div class="stat-card-header">
+            <span class="material-symbols-outlined stat-card-icon">vital_signs</span>
+            <div class="ping-dot"></div>
+          </div>
+          <div>
+            <h3 class="text-label-mono text-on-surface-variant mb-sm">Active Members</h3>
+            <p class="stat-card-value" data-count="1,248" data-prefix="">0</p>
+          </div>
+        </div>
+        <!-- Stat 2 -->
+        <div class="glass-card stat-card" style="border-color:rgba(0,162,253,0.15);">
+          <div class="stat-card-header">
+            <span class="material-symbols-outlined" style="color:var(--color-secondary-container); opacity:0.7;">schedule</span>
+          </div>
+          <div>
+            <h3 class="text-label-mono text-on-surface-variant mb-sm">Classes Daily</h3>
+            <p class="stat-card-value" data-count="42">0</p>
+          </div>
+        </div>
+        <!-- Stat 3 -->
+        <div class="glass-card stat-card">
+          <div class="stat-card-header">
+            <span class="material-symbols-outlined stat-card-icon">local_fire_department</span>
+            <div class="mini-bars">
+              <span style="height:8px;"></span>
+              <span style="height:16px;"></span>
+              <span style="height:24px;"></span>
+            </div>
+          </div>
+          <div>
+            <h3 class="text-label-mono text-on-surface-variant mb-sm">Calories Burned (Global)</h3>
+            <p class="stat-card-value" data-count="8.4" data-suffix="M">0</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         USP — WHY CONQUER FITNESS
+         ============================================================ -->
+    <section class="container section reveal">
+      <div class="section-header-center">
+        <h2 class="text-headline-lg text-primary" style="font-style:italic; text-transform:uppercase;">Why Conquer Fitness?</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="grid grid-3 reveal-stagger" style="margin-bottom:32px;">
+        <div class="glass-card feature-card">
+          <span class="material-symbols-outlined">schedule</span>
+          <h3>24/7 Access</h3>
+          <p>Train on your schedule. Our gym never closes — get in a workout any time, day or night.</p>
+        </div>
+        <div class="glass-card feature-card">
+          <span class="material-symbols-outlined">groups</span>
+          <h3>Expert Coaches</h3>
+          <p>Certified trainers specializing in strength, cardio, yoga, and nutrition — all at your service.</p>
+        </div>
+        <div class="glass-card feature-card">
+          <span class="material-symbols-outlined">spa</span>
+          <h3>Premium Recovery</h3>
+          <p>Free steam bath, sauna, and recovery zone to accelerate your post-workout recovery.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         FEATURED AMENITIES & CLASSES
+         ============================================================ -->
+    <section class="container section reveal">
+      <div style="display:flex; flex-wrap:wrap; justify-content:space-between; align-items:flex-end; margin-bottom:40px; gap:16px;">
+        <div class="section-header">
+          <h2>What We Offer</h2>
+          <p class="text-body-md">Everything you need under one roof — all included with your membership.</p>
+        </div>
+        <a href="classes.html" class="text-label-mono" style="color:var(--color-secondary); display:flex; align-items:center; gap:4px; transition:color 0.3s;">
+          View Full Schedule
+          <span class="material-symbols-outlined" style="font-size:16px;">east</span>
+        </a>
+      </div>
+      <div class="grid reveal-stagger" style="grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap:16px;">
+        <!-- Feature 1: Free Yoga -->
+        <div class="glass-card feature-card">
+          <span class="material-symbols-outlined">self_improvement</span>
+          <h3>Free Yoga</h3>
+          <p>Daily yoga classes for flexibility, balance, and inner peace.</p>
+        </div>
+        <!-- Feature 2: Free BMI -->
+        <div class="glass-card feature-card">
+          <span class="material-symbols-outlined">monitor_weight</span>
+          <h3>Free BMI</h3>
+          <p>Complimentary body composition analysis and health tracking.</p>
+        </div>
+        <!-- Feature 3: Free Zumba -->
+        <div class="glass-card feature-card">
+          <span class="material-symbols-outlined">music_note</span>
+          <h3>Free Zumba</h3>
+          <p>High-energy dance workouts that make fitness fun and addictive.</p>
+        </div>
+        <!-- Feature 4: Free CrossFit -->
+        <div class="glass-card feature-card">
+          <span class="material-symbols-outlined">fitness_center</span>
+          <h3>Free CrossFit</h3>
+          <p>Functional training that builds real-world strength and endurance.</p>
+        </div>
+        <!-- Feature 5: Diet Nutrition -->
+        <div class="glass-card feature-card">
+          <span class="material-symbols-outlined">restaurant</span>
+          <h3>Diet & Nutrition</h3>
+          <p>Personalized diet plans and nutritional guidance from experts.</p>
+        </div>
+        <!-- Feature 6: Free Steam Bath -->
+        <div class="glass-card feature-card">
+          <span class="material-symbols-outlined">hot_tub</span>
+          <h3>Free Steam Bath</h3>
+          <p>Relax and detoxify with our premium steam room facilities.</p>
+        </div>
+        <!-- Feature 7: Jerai Equipment -->
+        <div class="glass-card feature-card">
+          <span class="material-symbols-outlined">exercise</span>
+          <h3>Jerai Equipment</h3>
+          <p>World-class Jerai fitness equipment for maximum performance.</p>
+        </div>
+        <!-- Feature 8: Huge Parking -->
+        <div class="glass-card feature-card">
+          <span class="material-symbols-outlined">local_parking</span>
+          <h3>Huge Parking</h3>
+          <p>Ample free parking space so you never worry about your vehicle.</p>
+        </div>
+        <!-- Feature 9: 6000 sq.ft. Space -->
+        <div class="glass-card feature-card">
+          <span class="material-symbols-outlined">square_foot</span>
+          <h3>6000 Sq.Ft. AC Space</h3>
+          <p>Massive air-conditioned workout area for unrestricted training.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         FEATURED CLASSES (Visual Cards)
+         ============================================================ -->
+    <section class="container section reveal">
+      <div style="display:flex; flex-wrap:wrap; justify-content:space-between; align-items:flex-end; margin-bottom:40px; gap:16px;">
+        <div class="section-header">
+          <h2>Featured Protocols</h2>
+          <p class="text-body-md">Select your calibration. Master your form.</p>
+        </div>
+        <a href="classes.html" class="text-label-mono" style="color:var(--color-secondary); display:flex; align-items:center; gap:4px;">
+          View All Schedule
+          <span class="material-symbols-outlined" style="font-size:16px;">east</span>
+        </a>
+      </div>
+      <div class="grid grid-3 reveal-stagger">
+        <!-- HIIT Card -->
+        <div class="glass-card class-card">
+          <div class="class-card-image">
+            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuB3IUNgV-4RaSJcGOLvezEL6adEoQbDG2aG1EMxDMU2dVeHNtGZzUY6d1c27ot6xM9N_PQSn8V70ppgJuD1zFzCLkbVT9d9GOeciz3XBLpaKZegP57gTsme317Fh16yMCFvWatJWLM3fbiJw9w9umC8I5qmNQ7EHEUZb9WQAQDACteOHTef4MvPsx5qvabFP0TILTxi8a1W1Lfb_NgxObv5YpNl7zKoJAxqtmX4UFE_5jtaueU6FstBCRSfvplXrlJGNQf5h_a9s3Y2" alt="Athlete performing kettlebell swing in dark gym">
+            <div class="class-card-chip chip chip-primary">High Intensity</div>
+          </div>
+          <div class="class-card-body">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+              <h3 class="class-card-title">HIIT SURGE</h3>
+              <span class="material-symbols-outlined text-on-surface-variant">bolt</span>
+            </div>
+            <p class="class-card-desc text-body-md">Maximal aerobic capacity and explosive power. Push past the threshold.</p>
+            <div class="class-card-meta">
+              <div class="class-card-meta-item">
+                <span class="material-symbols-outlined">schedule</span> 45 MIN
+              </div>
+              <div class="class-card-meta-item">
+                <span class="material-symbols-outlined">speed</span> INTENSE
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Strength Card -->
+        <div class="glass-card class-card class-card-featured">
+          <div class="class-card-image">
+            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDxs4vJAu28tv32XIjNnQbhhPxrCkTRyKcgRtFqcouD39Qov5SolvJo3Ovt3PRH3dX3H6GlsCXOXQM8PjJcP3zZXPEMnpj5kARuPCdEGLnf1dwWgJ77XUSb5HsTcEW92AlMJpAcuXKVc74vugOtPXjlcl7NQTB7BA0E-2wv06TZMfpCEXKA4YkxDSl4nH3XQr1nZN5tYYizkG2AXoCiqmXm4WbadvPOW5nS5PPA1OHN6wn8Ycyi3zUiJmwHc9aab9PdwuNxitu91M_J" alt="Bodybuilder performing heavy deadlift">
+            <div class="class-card-chip chip chip-secondary">Strength</div>
+          </div>
+          <div class="class-card-body">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+              <h3 class="class-card-title">IRON FORGE</h3>
+              <span class="material-symbols-outlined text-on-surface-variant">fitness_center</span>
+            </div>
+            <p class="class-card-desc text-body-md">Hypertrophy and absolute strength focus. Move heavy mass with precision.</p>
+            <div class="class-card-meta">
+              <div class="class-card-meta-item">
+                <span class="material-symbols-outlined">schedule</span> 60 MIN
+              </div>
+              <div class="class-card-meta-item">
+                <span class="material-symbols-outlined">line_weight</span> HEAVY
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Yoga Card -->
+        <div class="glass-card class-card">
+          <div class="class-card-image">
+            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuByKxy5fY-418CVateIOcwOSVsTyE7UzM89QT6UO_o9C1SE_yLcS0wI9V6QZVoLuDvcFAsDejw_4AnD8sqh_3QT4A50L-mplMU7u_RAbWJZbXcDTHyyhkOcfcc78jQ-rHrte14l6fjBdgdejJJ8ksiEhxI9VcOKRkA2P4oiLRmGa7qmnDQ76841LPLdqFUMDgd-lsvtHEDxHdmiU5gSwOPjxxxdeL8-GH3mO8WEMDoknIGnnl09W6-u--erp_R_IqOzj8myLrfAV8iW" alt="Athlete in yoga pose in dark studio">
+            <div class="class-card-chip chip chip-secondary" style="background:rgba(0,162,253,0.2); backdrop-filter:blur(8px);">Recovery</div>
+          </div>
+          <div class="class-card-body">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+              <h3 class="class-card-title">KINETIC YOGA</h3>
+              <span class="material-symbols-outlined text-on-surface-variant">self_improvement</span>
+            </div>
+            <p class="class-card-desc text-body-md">Active mobility, fascia release, and breathwork to optimize recovery rates.</p>
+            <div class="class-card-meta">
+              <div class="class-card-meta-item">
+                <span class="material-symbols-outlined">schedule</span> 45 MIN
+              </div>
+              <div class="class-card-meta-item">
+                <span class="material-symbols-outlined">water_drop</span> LOW
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         MEMBER TRANSFORMATIONS / SOCIAL PROOF
+         ============================================================ -->
+    <section class="container section reveal">
+      <div class="section-header-center">
+        <h2 class="text-headline-lg text-primary" style="font-style:italic; text-transform:uppercase;">Member Results</h2>
+        <div class="section-divider section-divider-blue"></div>
+      </div>
+      <div class="grid grid-3 reveal-stagger">
+        <!-- Testimonial 1 -->
+        <div class="glass-card" style="padding:24px;">
+          <div style="display:flex; gap:4px; margin-bottom:12px;">
+            <span class="material-symbols-outlined" style="color:var(--color-primary-fixed); font-size:18px; font-variation-settings:'FILL' 1;">star</span>
+            <span class="material-symbols-outlined" style="color:var(--color-primary-fixed); font-size:18px; font-variation-settings:'FILL' 1;">star</span>
+            <span class="material-symbols-outlined" style="color:var(--color-primary-fixed); font-size:18px; font-variation-settings:'FILL' 1;">star</span>
+            <span class="material-symbols-outlined" style="color:var(--color-primary-fixed); font-size:18px; font-variation-settings:'FILL' 1;">star</span>
+            <span class="material-symbols-outlined" style="color:var(--color-primary-fixed); font-size:18px; font-variation-settings:'FILL' 1;">star</span>
+          </div>
+          <p class="text-body-md text-on-surface-variant" style="margin-bottom:16px; font-style:italic;">"Lost 18kg in 6 months. The trainers at Conquer pushed me beyond what I thought was possible. The free yoga and steam bath are incredible perks."</p>
+          <div style="display:flex; align-items:center; gap:12px;">
+            <div style="width:40px; height:40px; border-radius:50%; background:var(--color-primary-fixed); display:flex; align-items:center; justify-content:center; font-family:var(--font-headline); font-weight:900; font-style:italic; color:var(--color-on-primary); font-size:16px;">R</div>
+            <div>
+              <p class="text-label-mono text-primary">Rahul Sharma</p>
+              <p style="font-size:12px; color:var(--color-on-surface-variant);">Member since 2023</p>
+            </div>
+          </div>
+        </div>
+        <!-- Testimonial 2 -->
+        <div class="glass-card" style="padding:24px;">
+          <div style="display:flex; gap:4px; margin-bottom:12px;">
+            <span class="material-symbols-outlined" style="color:var(--color-primary-fixed); font-size:18px; font-variation-settings:'FILL' 1;">star</span>
+            <span class="material-symbols-outlined" style="color:var(--color-primary-fixed); font-size:18px; font-variation-settings:'FILL' 1;">star</span>
+            <span class="material-symbols-outlined" style="color:var(--color-primary-fixed); font-size:18px; font-variation-settings:'FILL' 1;">star</span>
+            <span class="material-symbols-outlined" style="color:var(--color-primary-fixed); font-size:18px; font-variation-settings:'FILL' 1;">star</span>
+            <span class="material-symbols-outlined" style="color:var(--color-primary-fixed); font-size:18px; font-variation-settings:'FILL' 1;">star</span>
+          </div>
+          <p class="text-body-md text-on-surface-variant" style="margin-bottom:16px; font-style:italic;">"Best gym in the city! The Jerai equipment is top-notch, the 6000 sq.ft. space never feels crowded, and the Zumba classes are so much fun."</p>
+          <div style="display:flex; align-items:center; gap:12px;">
+            <div style="width:40px; height:40px; border-radius:50%; background:var(--color-secondary-container); display:flex; align-items:center; justify-content:center; font-family:var(--font-headline); font-weight:900; font-style:italic; color:var(--color-on-secondary); font-size:16px;">P</div>
+            <div>
+              <p class="text-label-mono text-primary">Priya Patel</p>
+              <p style="font-size:12px; color:var(--color-on-surface-variant);">Member since 2024</p>
+            </div>
+          </div>
+        </div>
+        <!-- Google Rating Card -->
+        <div class="glass-card" style="padding:24px; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; border-color:rgba(195,244,0,0.2);">
+          <span class="material-symbols-outlined" style="font-size:36px; color:var(--color-primary-fixed); margin-bottom:12px; font-variation-settings:'FILL' 1;">star</span>
+          <p style="font-family:var(--font-headline); font-size:56px; font-weight:900; font-style:italic; color:var(--color-primary); line-height:1; margin-bottom:8px;">4.9</p>
+          <div style="display:flex; gap:2px; margin-bottom:12px;">
+            <span class="material-symbols-outlined" style="color:var(--color-primary-fixed); font-size:16px; font-variation-settings:'FILL' 1;">star</span>
+            <span class="material-symbols-outlined" style="color:var(--color-primary-fixed); font-size:16px; font-variation-settings:'FILL' 1;">star</span>
+            <span class="material-symbols-outlined" style="color:var(--color-primary-fixed); font-size:16px; font-variation-settings:'FILL' 1;">star</span>
+            <span class="material-symbols-outlined" style="color:var(--color-primary-fixed); font-size:16px; font-variation-settings:'FILL' 1;">star</span>
+            <span class="material-symbols-outlined" style="color:var(--color-primary-fixed); font-size:16px; font-variation-settings:'FILL' 1;">star</span>
+          </div>
+          <p class="text-label-mono text-on-surface-variant">Google Reviews</p>
+          <p style="font-size:13px; color:var(--color-on-surface-variant); margin-top:4px;">320+ verified reviews</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CTA BANNER
+         ============================================================ -->
+    <section class="container section reveal">
+      <div class="glass-card" style="padding:48px 32px; text-align:center; border-color:rgba(195,244,0,0.15); background:linear-gradient(135deg, rgba(26,26,26,0.8), rgba(40,42,43,0.6));">
+        <h2 class="text-display-sm gradient-text" style="margin-bottom:16px;">READY TO CONQUER?</h2>
+        <p class="text-body-lg text-on-surface-variant" style="max-width:600px; margin:0 auto 32px;">Start your fitness journey today. First trial is on us — no strings attached.</p>
+        <div style="display:flex; justify-content:center; gap:16px; flex-wrap:wrap;">
+          <a href="contact.html" class="btn btn-primary btn-lg">
+            <span>Get Free Trial</span>
+            <span class="material-symbols-outlined">arrow_forward</span>
+          </a>
+          <a href="membership.html" class="btn btn-secondary btn-lg">
+            <span>View Plans</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-logo">CONQUER FITNESS</div>
+        <p class="footer-copyright">© 2025 Conquer Fitness. Engineered for performance.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="contact.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
